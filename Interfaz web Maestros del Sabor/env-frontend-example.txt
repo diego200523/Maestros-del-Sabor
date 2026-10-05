@@ -1,0 +1,10 @@
+# Variables de entorno del FRONTEND (Vite).
+# En tu computadora no necesitas crear este archivo — sin él, la app usa
+# http://localhost:4000 automáticamente (perfecto para desarrollo local).
+#
+# En producción (cuando publiques la página), configura esta variable en el
+# panel de tu servicio de hosting (ej. Vercel, Netlify) con la URL real de
+# tu backend ya publicado. Debe empezar con "VITE_" para que Vite la exponga
+# al navegador — sin ese prefijo, la variable no llega al código.
+
+VITE_SERVER_URL=https://tu-backend-publicado.onrender.com

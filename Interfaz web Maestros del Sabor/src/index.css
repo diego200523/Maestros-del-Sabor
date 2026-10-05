@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;500;600;700;800;900&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-brand-red: #F04E37;
+  --color-brand-orange: #F5A623;
+  --color-brand-yellow: #FFE600;
+  --color-brand-wine: #4A1030;
+  --color-brand-wine-light: #6B1A48;
+  --color-brand-cream: #FFF8F0;
+  --font-display: 'Fredoka One', cursive;
+  --font-body: 'Nunito', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #FFF8F0;
+  color: #4A1030;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: #F5A62355;
+  border-radius: 99px;
+}
+::-webkit-scrollbar-thumb:hover { background: #F5A623aa; }

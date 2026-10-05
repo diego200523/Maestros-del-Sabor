@@ -1,0 +1,10 @@
+{
+  "description": "Streamline your food shopping experience with an online ordering system for marinated meats and gourmet products, tailored for culinary enthusiasts.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
